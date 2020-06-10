@@ -14,3 +14,4 @@ static const size_t FAMILY_COUNT = 3;
 static const size_t STR_COUNT = 5;
 static const size_t DEFAULT_THREAD_HASH = 2;
 #endif //INCLUDE_CONSTANTS_HPP_
+
