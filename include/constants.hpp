@@ -1,10 +1,11 @@
+// Copyright 2018 Your Name <your_email>
 //
 // Created ...
 //
 
 #ifndef UNTITLED_CONSTANTS_H
 #define UNTITLED_CONSTANTS_H
-const std::string CHARACTERS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+const char CHARACTERS[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 static const size_t KEY_LENGTH = 1;
 static const size_t VALUE_LENGTH = 1;
 static const size_t FAMILY_NAME_LENGTH = 1;

@@ -106,7 +106,7 @@ void DBHashCreator::startHash
 
 void DBHashCreator::init(int argc, char ** argv)
 {
-	    po::options_description desc("short description");
+            po::options_description desc("short description");
     desc.add_options()
             ("help,h", "--log_level arg       level logging\n"
                        "--thread_count arg    count of threads\n"

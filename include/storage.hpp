@@ -1,7 +1,7 @@
 // Copyright 2018 Your Name <your_email>
 
-#ifndef INCLUDE_MAIN_HPP_
-#define INCLUDE_MAIN_HPP_
+#ifndef INCLUDE_STORAGE_HPP_
+#define INCLUDE_STORAGE_HPP_
 #include <iostream>
 #include <string>
 #include <random>
@@ -60,4 +60,4 @@ private:
     std::size_t _threadCountHash = DEFAULT_THREAD_HASH;
     std::mutex _mutex;
 };
-#endif // INCLUDE_MAIN_HPP_
+#endif // INCLUDE_STORAGE_HPP_
