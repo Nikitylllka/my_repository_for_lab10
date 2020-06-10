@@ -1,3 +1,4 @@
+// Copyright 2018 Your Name <your_email>
 #pragma once
 
 #include <iostream>
@@ -10,6 +11,7 @@
 #include <boost/log/utility/setup/console.hpp>
 #include <boost/log/utility/setup/common_attributes.hpp>
 #include <boost/log/sinks.hpp>
+#include <string>
 
 namespace logs{
     void logInFile();
